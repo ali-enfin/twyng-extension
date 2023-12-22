@@ -1,0 +1,26 @@
+/* body,html{
+    height:100%;
+    width: 100%;
+  } */
+  #twyng-draggable {
+    background: #f3f3f3;
+    display:block;
+    align-items: center;
+    justify-content:center;
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    width: 500px;
+    height:300px;
+    font-size:2rem;
+    z-index: 9999;
+  }
+  #twyng-draggable-bar{
+    height: 30px;
+    background: #cecece;
+    cursor: pointer;
+  }
+  
+  .no-select {
+    user-select: none;
+  }

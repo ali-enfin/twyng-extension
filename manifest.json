@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Twyng AWS",
+    "description": "Loads an iframe when visitng aws site",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "host_permissions": ["*://*.aws.amazon.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.oliveliving.com/*"],
+        "js": ["content.js"],
+        "css":["style.css"]
+      }
+    ]
+  }
